@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;600;700&display=swap');
+
+body {
+  background-color: #121212;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+.widgetWrap {
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  margin-bottom: 20px;
+  background-color: #121212;
+  box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.2),
+    0px 7px 10px 1px rgba(0, 0, 0, 0.14), 0px 2px 16px 1px rgba(0, 0, 0, 0.12);
+}
+
+.widgetTitle {
+  border-bottom: 1px solid #665151;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 10px;
+}
+
+.widgetValue {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.widgetValue .value {
+  font-size: 57px;
+  font-weight: 700;
+  text-align: left;
+  padding: 0px 7px;
+  line-height: 100%;
+}
+
+.widgetValue .description {
+  text-align: left;
+  font-size: 16px;
+  margin-top: 25px;
+  border-top: 2px solid gray;
+  padding-left: 13px;
+  color: #aaf2f5;
+}
+
+text {
+  fill: white;
+}
+
+.TopHeader {
+  background-color: #272727;
+  margin-bottom: 19px;
+  padding: 10px 15px;
+  font-size: 24px;
+  text-align: left;
+  font-weight: bold;
+  box-shadow: 0px 6px 6px -3px rgba(0, 0, 0, 0.2),
+    0px 10px 14px 1px rgba(0, 0, 0, 0.14), 0px 4px 18px 3px rgba(0, 0, 0, 0.12);
+}
+
+.Dropdown-root {
+  font-size: 15px;
+  width: 180px;
+  float: right;
+}
+
+.widgetWrap {
+  height: 182px;
+  margin-bottom: 19px;
+}
+
+.widgetValue {
+  /* display: flex; */
+  /* align-items: flex-end; */
+  height: 130px;
+  padding-left: 7px;
+}
+
+.value {
+  color: #9964f4;
+}
+
+.widgetTitle {
+  color: #b6b6e3;
+}
+
+.Dropdown-control {
+  background-color: #272727 !important;
+  color: #fff;
+}
+
+.Dropdown-placeholder.is-selected {
+  color: #fff;
+}
+
+.Dropdown-menu {
+  background-color: #272727 !important;
+}
+
+.Dropdown-option {
+  color: #8180e9 !important;
+}
+
+.Dropdown-option:hover {
+  color: rgb(54, 49, 49) !important;
+  background-color: #665151;
+}
+
+.Dropdown-placeholder.is-selected {
+  color: #aaf2f5;
+}
+
+.bouncerate {
+  height: 380px;
+}

@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+li a,
+a {
+  text-decoration: none;
+}
+
+li a:hover {
+  color: seagreen !important;
+}
+
+.content p {
+  display: inline;
+  padding: 20px;
+}
+
+.content #facebook a {
+  color: #3b5998;
+}
+
+.content #linkedin a {
+  color: #0e76a8;
+}
+
+.content #twitter a {
+  color: #00acee;
+}
+
+.content #github a {
+  color: #211f1f;
+}
+
+#introduction p {
+  text-align: justify;
+}
+
+#contact p a:hover {
+  color: seagreen;
+}
