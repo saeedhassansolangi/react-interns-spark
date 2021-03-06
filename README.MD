@@ -24,7 +24,7 @@
 * Code (https://codesandbox.io/s/profile-app-3i2np)
 * Live Project (https://3i2np.csb.app/)
 
-## 05) Dashboardboard App
+## 05) Dashboard App
 
 * Code (https://codesandbox.io/s/dashboard-app-ozg54) 
 * Live Project (https://ozg54.csb.app/)
